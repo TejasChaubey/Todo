@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To -Do List</title>
+    <script src="https://kit.fontawesome.com/5ef5d04bff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+</head>
+<body>
+    <div class="points">
+        <h1>..To Do List..</h1>
+        <h3 class="point"><i class="fa-solid fa-hand-point-right"></i> Give Structure to your day</h3>
+        <h3 class="point"><i class="fa-solid fa-hand-point-right"></i> Convert Your Goal Into An Action</h3>
+        <h3 class="point"><i class="fa-solid fa-hand-point-right"></i> Prioritize <i class="fa-sharp fa-solid fa-arrow-right fa-beat"></i> Add <i class="fa-sharp fa-solid fa-arrow-right fa-beat"></i> Complete....&..Less to hold in your head.</h3>
+    </div>
+    <div class="container">
+       
+        <div class="to-do-app">
+            
+            <h2>@ To-Do Tasks</h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add task...">
+                <button onclick="addTask()"><b>+</b></button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task1</li>
+                <li>Task2</li>
+                <li>Task3</li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
